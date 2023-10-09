@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("jannik-GcufRZVORQA-unsplash.jpg");
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-position:60%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    background-color: rgba(0,0, 0, 0.6);
+    max-width : 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+#timedisplay{
+    color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    margin: 2.5rem 0.9rem;
+}
+.container{
+    padding-top: 45px ;
+}
+.timerbtn{
+    padding:  0.6rem 0.7rem;
+    margin: 0.2rem 0.6rem;
+    border-radius: 15px;
+    background-color: burlywood;
+    color: black;
+}
+.timerbtn:hover{
+    font-size: 15px;
+    transition-duration: 0.4s;
+    
+}

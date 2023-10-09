@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box{
+    text-align: center;
+    height: 450px;
+    width: 370px; 
+    padding: 15px;
+    background-color: black;  
+    border-radius: 15px;
+    position: relative;
+    border: 4px red solid;
+}
+.header-text{
+    font-size: 35px;
+    padding: 10px;
+    color:red;
+    margin-bottom: 35px;  
+}
+.form-control{
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+    text-align: center;
+    padding-top: 25px;
+}
+.input-field{
+    height: 20px;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid red ;
+    color: white;
+    margin: 15px 0;
+    padding: 0 15px;
+    outline: none;
+}
+.input-field:focus,.input-field :valid{
+    border-bottom: 2px rgb(109, 18, 18) solid ;
+}
+.form-control label{
+    
+    top: 33px;
+    left:3px;
+    transition: 0.3s;
+}
+.input-field:focus label{
+    top: 5px;
+    font-size: 12px;
+    color: rgb(109, 18, 18);
+}
+.input-field :valid label{
+    top: 5px;
+    font-size: 12px;
+    color: rgb(109, 18, 18);
+}
+.btn{
+    background-color: red;
+    border: 2px solid;
+    padding: 5px;
+
+}

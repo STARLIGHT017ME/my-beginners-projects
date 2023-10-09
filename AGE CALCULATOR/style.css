@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    font-family: "Parmanent Marker", cursive;
+    justify-content: center;
+    text-align: center;
+    background: gray;
+    
+    
+}
+h1{
+    font-size: 60px;
+    color:green;
+}
+#container{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(225, 225, 225, 0.3);
+    
+    align-items: center;
+}
+#input{
+  background: white;
+  margin: 40px;
+  padding: 35px;
+  border-radius: 10px;
+}
+#btn{
+    background: green;
+    font-weight: 500;
+    cursor: pointer;
+
+}

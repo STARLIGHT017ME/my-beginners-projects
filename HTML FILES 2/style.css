@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hover{
+    width: 30% auto;
+    padding: 10px;
+    border: 2px solid #e13838;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    grid-gap: 56px;
+    list-style: none;
+    justify-content: center;
+}
+li{
+    margin: 15px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 236, 236);
+    font-size: 45px;
+    transform: translateX(0);
+    
+    transition: .4s;
+}
+.hover a:hover{
+    color: green;
+    font-weight: bolder;
+    font-size: 55px;
+    transition: 0.2s;
+    top:90px;
+    transform: translateY(-4rem);
+    cursor: grab;
+}    
+
+.animated-words{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.letters{
+    color: black;
+    font-size: 45px;
+    transition: 0.2s;
+    transform: translateX(0);
+
+}
+.letters:hover{
+    cursor: grab;
+    font-size: 55px;
+    transition: 0.4s;
+    transform: translateY(-1.4rem);
+    color: orange;
+    
+}
+
+
+
+.container{
+    margin: auto;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.container a{
+    color: red;
+    font-size: 25px;
+    
+}
+.box{
+    height:fit-content;
+    width: fit-content;
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding: 45px;
+    border: 3px rgb(8, 232, 8) solid;
+    border-radius: 15px;
+}
+.box h3{
+    text-align: center;
+    font-size: 45px;
+    color:  rgb(8, 232, 8) ;
+}
+
+.btn{
+    padding: 2px;
+    margin: 55px;
+    background-color:black;
+    border: 3px rgb(8, 232, 8) solid;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+.btn:focus{
+    outline: 78px;
+
+}
+.btn:active{
+    transform: scale(0.98);
+
+}
+.text{
+    color: rgb(8, 232, 8) ;
+}
+form{
+    margin-top: 25px;
+    display: grid;
+    
+}
+.form-control{
+     margin:40px 0 40px;
+     width: 300px;
+     position: relative;
+}
+.form-control input{
+    color: #fff;
+    background-color: transparent;
+    border: 0px;
+    border-bottom:2px rgb(8, 232, 8) solid;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    outline: 0px;
+
+}
+.input-field:focus, 
+.input-field :valid {
+    border-bottom:2px rgb(78, 163, 78) solid;
+}
+.form-control label{
+    position: absolute;
+    top: 2px;
+    left: 105px;
+    transition: 0.2s;
+    
+}
+.input-field:focus ~ label, .input-field:valid ~ label{
+    top: 5px;
+    font-size: 12px;
+    color: rgb(8, 232, 8);
+}

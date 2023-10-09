@@ -1,0 +1,49 @@
+
+body{
+    background-image: url("d-ng-tr-n-qu-c-_FSA44MuXn4-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timercontainer{
+    padding:1rem ;
+    border: 3px,solid;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+#mytimer{
+    text-align: center;
+    color: green;
+    font-size: 60px;
+    padding-top: 45px;
+}
+.container{
+    align-content: center;
+    text-align: center;
+    padding-top: 45px;
+
+
+}   
+.timerbtn{
+    color:green;
+    background-color:white;
+    border:2px solid white;
+    border-radius: 15px;
+    margin: 0 0.2rem;
+    padding: 0.4rem 1rem;    
+}
+.timerbtn:hover{
+    background-color: green;
+    color:white;
+    transition-duration: 0.5s;
+
+}
